@@ -1,0 +1,64 @@
+@import "reset.css";
+@import "variables.css";
+
+
+/**component**/
+@import "component/user-profile.css";
+@import "component/alert.css";
+@import "component/divide.css";
+@import "component/speech-buble.css";
+@import "component/anime.css";
+
+
+/**Screen**/
+@import "screen/friends.css";
+@import "screen/header.css";
+@import "screen/phone-state.css";
+@import "screen/under-nav.css";
+@import "screen/chat.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/login.css";
+@import "screen/chat-w-friend.css";
+
+
+/**font family**/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+body{
+    background-color: var(--bg_color);
+    font-family: 'Nanum Gothic', sans-serif;
+    color: var(--deep_water);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+main{    
+    margin: 15vh 10px;
+    padding: 5px;
+}
+
+#no-mobile{
+        position: absolute;
+        z-index: 99;
+        height: 100vh;
+        background-color: var(--bg_color);
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        top: 0;     
+}
+
+@media screen and (max-width: 645px) {
+    #no-mobile {
+      display: none;
+    }
+}
+
+

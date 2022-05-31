@@ -1,0 +1,27 @@
+.user-profile__chat{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-profile__user__name>i, .chat__time{
+    color: var(--light_water);
+}
+
+.chat-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat-screen__alert{
+display: flex;
+justify-content: center;
+align-items: center;
+color: aliceblue;
+font-weight: 700;
+background-color: blueviolet;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+margin-top: 5px;
+}

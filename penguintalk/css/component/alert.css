@@ -1,0 +1,32 @@
+.alert{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 700;
+    background-color: blueviolet;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.chat-alert{
+    left: 20px;
+    bottom: 15px;
+}
+
+.alert__sm{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    bottom: 25px;
+    left: 25px;
+}
+
+.alert__upper{
+    left: 70px;
+    bottom: 20px
+}
+

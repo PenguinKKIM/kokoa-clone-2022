@@ -1,0 +1,37 @@
+.user-profile{
+    margin: 10px 0;
+}
+
+.user-profile__component, .user-profile{
+    display: flex;    
+    align-items: center;
+}
+
+.user-profile__avatar{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 28px;
+    margin-right: 20px;
+}
+
+.user-profile__avatar__sm{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 23px;
+    margin-right: 20px;
+}
+
+
+.user-profile__user__name{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.user-profile__status__mesg, .chat__time{
+    font-size: .8rem;
+    padding: 4px 0;
+}
+
+

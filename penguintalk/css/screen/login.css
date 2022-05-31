@@ -1,0 +1,67 @@
+.login-screen__welcome-header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+   
+    
+}
+
+.login-screen__welcome-header{
+    font-size: 1.3rem;
+    margin: 50px 0px;
+}
+
+.login-screen__welcome-header__text{
+    width: 50%;
+    font-size: 1rem;
+    color: var(--cool_water);
+    margin: 50px 0;
+}
+
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+#login-form input{
+    font-size: 1rem;
+    padding: 20px 0px;
+    border: none;
+    margin-bottom: 25px;
+    border-bottom: 1px solid var(--deep_water);
+    transition: border-color .3s ease-in-out;
+}
+
+#login-form input:not([type="submit"]){
+    border-bottom: 1px solid var(--deep_water);
+    transition: border-color .3s ease-in-out;
+}
+
+#login-form input[type="submit"]{
+    background-color: var(--cool_water);
+    color: azure;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#login-form input:focus{
+    border-color: var(--light_water);
+} 
+
+#login-form input::placeholder{
+    color: rgba(0,0,0,.4)
+}
+
+#login-form a{
+    text-decoration: none;
+    text-align: center;
+    color: var(--light_water) ;
+} 
+
+#login-form a:hover{
+    color: var(--deep_water);
+}

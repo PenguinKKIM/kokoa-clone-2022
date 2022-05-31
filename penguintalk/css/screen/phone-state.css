@@ -1,0 +1,19 @@
+.all-screen__phone__state__icons{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: white;
+}
+.all-screen__phone__state__icon{
+    margin: 0 2px;
+    padding: 5px;
+}
+

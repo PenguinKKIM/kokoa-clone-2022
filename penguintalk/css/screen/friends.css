@@ -1,0 +1,15 @@
+#friend-screen__link{
+    text-align: center;
+    display: block;
+    background-color: rgb(209, 233, 254);
+    padding: 10px 0;
+}  
+
+#friend-screen__link i{
+    color: var(--light_water);
+    margin-right: 5px;
+}
+
+.friend-screen__text{
+    margin-left: 10px;
+}

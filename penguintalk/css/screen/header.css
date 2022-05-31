@@ -1,0 +1,23 @@
+.all-screen__header__upper{
+    position: fixed;
+    top: 25px;
+    right: 0;
+    left: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(240, 248, 255, .5);
+}
+
+.all-screen__header__upper__title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.all-screen__header__upper__icon span{
+    margin-left: 25px;
+}
+
+.all-screen__header__upper__icon{
+    position: relative;
+}
