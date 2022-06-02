@@ -1,0 +1,22 @@
+.all-screen__nav__under{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: var(--lw_color_border);
+    background-color: rgba(116, 204, 244, .8);
+}
+
+.all-screen__nav__under__ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-screen__nav__under__btn{
+    margin: 15px;
+    padding: 10px;
+}
+
+.all-screen__nav__under__link{
+    position: relative;
+}

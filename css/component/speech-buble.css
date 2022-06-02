@@ -1,0 +1,39 @@
+.chat-screen____other-chat{
+    margin: 20px 0;
+}
+
+.chat-screen__other-speech-bubble__component,
+.chat-screen____other-chat,
+.chat-screen____other-chat__user-profile__component{
+    display: flex;
+    align-items: center;
+}
+
+.chat-screen__other-speech-bubble,
+.chat-screen__my-bubble{
+    background-color: var(--bg_color);    
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 3px 15px 15px 15px;
+}
+
+.chat-screen__other__time,
+.chat-screen__my__time{
+    font-size: .8rem;
+    margin: 10px 0 0 5px;
+}
+
+.chat-screen__my-chat__component{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.chat-screen__my-bubble{
+    border-radius: 15px 3px 15px 15px;
+
+}
+
+.chat-screen__my__time{
+    margin: 10px 5px 0 0;
+}

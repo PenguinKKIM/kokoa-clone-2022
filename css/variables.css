@@ -1,0 +1,10 @@
+:root{
+
+    --deep_water: #0f5e9c;
+    --clean_water: 	#2389da;
+    --cool_water: #1ca3ec;
+    --light_water: #74ccf4;
+    --bg_color: 	#f7f7f7;
+    --lw_color_border: 1px solid rgba(116, 204, 244, .5);
+    --main_border:1px solid rgba(0,0,0,.2); 
+}

@@ -1,0 +1,89 @@
+@keyframes under-nav_alert{
+    0%{
+        transform: rotatey(0);
+    }
+    50%{
+       transform: rotatey(180deg); 
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+.animate{
+    animation: under-nav_alert 1.3s linear infinite;
+}
+
+
+@keyframes hover-icon{
+    from{
+        transform: none;
+    }
+   to{
+       transform: rotatez(360deg);
+    }
+}
+
+.hover-icon:hover{
+    animation: hover-icon 1.3s linear infinite;
+}
+
+
+@keyframes chat-anime__other {
+    from{
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.chat-screen____other-chat{
+    transform: translateX(-100vw);
+    animation: chat-anime__my .5s linear forwards;
+}
+
+@keyframes chat-anime__my {
+    from{
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.chat-screen__my-chat{    
+    transform: translateX(100vw);
+    animation: chat-anime__my .5s linear forwards;    
+}
+
+.chat-2nd{    
+    animation-delay: 1s;
+}
+
+.chat-3rd{    
+    animation-delay: 2s;
+}
+
+.chat-4th{    
+    animation-delay: 3s;
+}
+
+.chat-5th{    
+    animation-delay: 4s;
+}
+
+.chat-6th{    
+    animation-delay: 5s;
+}
+
+.chat-7th{    
+    animation-delay: 6s;
+}
+
+.chat-8th{    
+    animation-delay: 7s;
+}
+
