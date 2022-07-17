@@ -13,3 +13,30 @@
 .friend-screen__text{
     margin-left: 10px;
 }
+
+
+@keyframes splash_disapper {
+    form{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+#splash{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--clean_water);
+    color: aliceblue;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    animation: splash_disapper 1s ease-in-out forwards;
+}
